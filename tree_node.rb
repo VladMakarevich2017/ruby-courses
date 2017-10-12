@@ -7,7 +7,6 @@ class TreeNode
   end
 
   attr_accessor :depth, :value, :left_node, :right_node
-  #attr_reader :left_node, :right_node
 
   def create_left_node
     @left_node = TreeNode.new
